@@ -8,4 +8,4 @@ jobs:
     steps:
     - name: hello-world
       run: |
-        echo "hello"
+        echo "hello  $GITHUB_ACTOR"
